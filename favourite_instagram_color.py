@@ -91,6 +91,10 @@ if(img_rgb > 0):
     pct_g = total_g / total_rgb * 100
     pct_b = total_b / total_rgb * 100
 
+    avg_r = total_r / img_rgb
+    avg_g = total_g / img_rgb
+    avg_b = total_b / img_rgb
+
     rgb_channel_pct = (pct_r, pct_g, pct_b)
 
     print(f"Channel with most total pixel values, with percentage of total pixel values in image:")
@@ -100,6 +104,11 @@ if(img_rgb > 0):
     print(f"R: {pct_r}%")
     print(f"G: {pct_g}%")
     print(f"B: {pct_b}%")
+
+    print(f"Average pixel value by channel:")
+    print(f"R: {avg_r}")
+    print(f"G: {avg_g}")
+    print(f"B: {avg_b}")
 
 ### CMYK ###
 ### CMYK ###
@@ -124,6 +133,11 @@ if(img_cmyk > 0):
     pct_y = total_y / total_cmyk * 100
     pct_k = total_k / total_cmyk * 100
 
+    avg_c = total_c / img_cmyk
+    avg_m = total_m / img_cmyk
+    avg_y = total_y / img_cmyk
+    avg_k = total_k / img_cmyk
+
     cmyk_channel_pct = (pct_c, pct_m, pct_y, pct_k)
 
     print(f"Channel with most total pixel values, with percentage of total pixel values in image:")
@@ -135,5 +149,8 @@ if(img_cmyk > 0):
     print(f"Y: {pct_y}%")
     print(f"K: {pct_k}%")
 
-
-    
+    print(f"Average pixel value by channel:")
+    print(f"C: {avg_c}")
+    print(f"M: {avg_m}")
+    print(f"Y: {avg_y}")
+    print(f"K: {avg_k}")
