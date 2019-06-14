@@ -8,9 +8,9 @@ A few years ago, I wanted to find out what my favourite color was. So I decided 
 Now that I started working with Python, I decided to make the process more seamless, and make a magical script that would replace what Photoshop did in the version from a few years back. As I will be working with CMYK images in the future, the magical script is also able to calculate pixel values in that format.
 
 The result I got is, again, very gray and boring:
-R: 34.37%
-G: 32.91%
-B: 32.72%
+- R: 34.37%
+- G: 32.91%
+- B: 32.72%
 
 Looks like I still can not find my favourite color, and who knows if I ever will. Still, the magical script does what it is told, and does not care about my indecisiveness.
 
