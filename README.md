@@ -12,6 +12,8 @@ The result I got is, again, very gray and boring:
 - G: 32.91%
 - B: 32.72%
 
+![alt text](https://github.com/pjelusic26/favourite-instagram-color/blob/master/favourite_instagram_color.jpg)
+
 Looks like I still can not find my favourite color, and who knows if I ever will. Still, the magical script does what it is told, and does not care about my indecisiveness.
 
 ----------
