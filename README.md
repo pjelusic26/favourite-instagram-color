@@ -23,7 +23,7 @@ A couple of notes below:
 - the script can only read .jpg files
 - to read images, create 'images/' folder, and place images inside it
 - the script prints:
-  - the value percentage of each color channel in image (example: R: 40% G: 30% B: 30%)
+  - percentage value of each color channel in image (example: R: 40% G: 30% B: 30%)
   - average pixel values for each channel (example: R: 120 G: 90 B: 180)
 - for future development: It would be nice to create a Photoshop Action that will somehow modify images to get a more meaningful result (example: total area coverage of 'mostly' Red/Green/Blue channels; etc.)
 
